@@ -1,0 +1,101 @@
+/* CSS for Navbar */
+body {
+ margin: 0;
+ padding: 0;
+ font-family: ui-sans-serif, sans-serif;
+}
+
+nav {
+ display: flex;
+ align-content: center;
+ justify-content: space-between;
+ background-color: #129581;
+ padding: 0 200px;
+}
+
+nav img {
+ width: 4rem;
+ margin: 30px 0 0 0;
+}
+
+nav ul {
+ display: flex;
+ list-style-type: none;
+}
+
+nav ul li {
+ display: flex;
+ margin: 10px 40px;
+ border-radius: 20px;
+ padding: 30px 40px;
+}
+
+nav ul li:hover {
+ background-color: rgb(255, 255, 255, 50%);
+}
+
+nav ul li:active {
+ background-color: white;
+}
+
+.active {
+ background-color: white;
+}
+
+.active-a {
+ color: black;
+}
+
+nav ul li a {
+ color: white;
+ text-decoration: none;
+}
+
+nav ul li a:hover {
+ color: black;
+}
+
+/* CSS for Content */
+
+article {
+ margin: 80px;
+ width: full;
+ heigth: 100vh;
+ padding: 0 120px;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ flex-direction: column;
+ text-align: center;
+}
+
+article h1 {
+ font-size: 50px;
+}
+
+/* Home */
+
+article p {
+ font-size: 20px;
+ margin: 0 0 80px 0;
+ padding: 0 300px;
+}
+
+video {
+ border-radius: 100px;
+}
+
+/* Contact */
+iframe {
+ border-radius: 50px;
+ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+/* CSS for Footer */
+footer {
+ font-size: 30px;
+ text-align: center;
+ color: white;
+ padding: 60px 0;
+ background-color: #129581;
+}
