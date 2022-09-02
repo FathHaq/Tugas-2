@@ -58,6 +58,7 @@ nav ul li a:hover {
 /* CSS for Content */
 
 article {
+	background-color: rgb(210, 250, 230)
  margin: 80px;
  width: full;
  heigth: 100vh;
